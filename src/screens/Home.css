@@ -1,3 +1,4 @@
+/* Hero section */
 .container {
     position: relative;
     width: 1920px;
@@ -11,7 +12,7 @@
     border: 1px solid #707070;
     opacity: 1;
 }
-.container .btn-tryitnow{
+ .btn-tryitnow{
     position: absolute;
     top: 80%;
     left: 50%;
@@ -26,7 +27,6 @@
     text-align: center;
     border:transparent;
 }
-
 .slide-text{
     margin-left: 15%;
     margin-top: 15%;
@@ -51,4 +51,75 @@
     letter-spacing: 3.2px;
     color: #FFFFFF;
     opacity: 1;
+}
+
+.awssld__bullets button{
+    background-color: white;
+}
+.awssld__bullets .awssld__bullets--active{
+    background-color:lightgray;
+}
+.awssld__bullets{
+    bottom: 30px;
+}
+/* Red section */
+.red-background{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-color: #D34848;
+    display: flex;
+    flex-direction: row;
+}
+.red-text{
+    top: 431px;
+    left: 184px;
+    width: 773px;
+    height: 88px;
+    text-align: left;
+    font: normal normal bold 74px/90px Helvetica Neue;
+    letter-spacing: 7.4px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-left: 6%;
+    margin-top:340px;
+    margin-bottom:13%;
+}
+.red-text2{
+    width: 879px;
+    height: 121px;
+    text-align: left;
+    font: normal normal normal 51px/61px Helvetica Neue;
+    letter-spacing: 5.1px;
+    color: #0B0B0B;
+    opacity: 1;
+    margin-left: 6%;
+}
+.btn-demo{
+    left: 50px;
+    width: 284px;
+    height: 79px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    top: 80%;
+    border-radius: 79px;
+    border:transparent;
+    text-align: center;
+    font: normal normal bold 23px/28px Helvetica Neue;
+    letter-spacing: 2.3px;
+    color: #D1346E;
+    opacity: 1;    
+}
+.btn-red-tryitnow{
+    margin-top: 95px;
+    margin-left: 500px;
+    width: 248px;
+    height: 62px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 79px;
+    opacity: 1;
+    color: #D1346E;
+    border:transparent;
+    font: normal normal bold 20px/25px Helvetica Neue;
 }

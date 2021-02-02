@@ -6,15 +6,19 @@ import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
-
 import './Home.css';
 import MenuDropdown from '../components/MenuDropdown'
+import speaker1 from './img/medium17.png';
+import speaker2 from './img/medium27.png';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const Home= () =>{
     const TryitNow =()=>{
         return(<button className = "btn-tryitnow">TRY IT NOW</button>);
+    }
+    const DemoButton =()=>{
+        return(<button className = "btn-demo">SEE DEMO</button>);
     }
     const NavMenu =() =>{
         //f0c9
@@ -58,10 +62,36 @@ const Home= () =>{
             </div>
         );
     };
+    const Red =() =>{
+        return (
+            <div className="red-background">
+                <div><MenuDropdown />
+                <p className="red-text">SUPERIOR SOUND</p>
+                <p className="red-text2">Experience live versions of your favourite songs.</p>
+                <DemoButton/></div>
+                <div style={{display:"flex",flexDirection:"column"}}>
+                    <div>
+                    <button className = "btn-red-tryitnow">TRY IT NOW</button>
+                    </div>
+                    <div style={{display:"flex",flexDirection:"row"}} >
+                    <div style = {{marginTop:'239px'}}><img src={speaker1}></img> </div>
+                    <div style = {{marginTop:'456px'}}
+                    ><img src={speaker2}></img></div>
+                    </div>
+                
+                </div>
+            
+            </div>
+        );
+        
+    };
 
     return(
-        
+
+        <div>
         <Hero/>
+        <Red/>
+        </div>
         
     );
 }
