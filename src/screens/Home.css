@@ -11,7 +11,7 @@
     border: 1px solid #707070;
     opacity: 1;
 }
-.container .btn-backup{
+.container .btn-tryitnow{
     position: absolute;
     top: 80%;
     left: 50%;
@@ -24,15 +24,31 @@
     border-radius: 79px;
     padding: 12px 24px;
     text-align: center;
+    border:transparent;
 }
 
-  .navMenu {
-    position: relative;
-    top: 15px;
-    left: 15px;
-    display: inline-block;
-
-  }
-
-  .navMenu a:hover {background-color: #ddd;}
-  
+.slide-text{
+    margin-left: 15%;
+    margin-top: 15%;
+    top: 414px;
+    /* left: 262px; */
+    width: 1396px;
+    height: 77px;
+    text-align: left;
+    font: normal normal bold 50px/56px Helvetica Neue;
+    letter-spacing: 6.5px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.slide-text2{
+    margin-left: 25%;
+    top: 521px;
+    left: 506px;
+    width: 820px;
+    height: 81px;
+    text-align: left;
+    font: normal normal normal 28px/40px Helvetica Neue;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    opacity: 1;
+}
