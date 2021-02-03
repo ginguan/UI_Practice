@@ -1,5 +1,5 @@
 # FRONT-END PROJECT #
-## Some screenshots of the project ##
+## Some screenshots of the project (in progress)##
 ### 3 Pages ###
 
 
