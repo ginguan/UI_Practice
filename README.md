@@ -1,10 +1,12 @@
 # FRONT-END PROJECT 
 ## Some screenshots of the project
 ### 3 Pages 
-<img src="image/main.png" width="30%" height="30%">
-<img src="image/main.png" width="30%" height="30%">
+<div class="row">
+  <img src="image/main.png" width="30%" height="30%"><img src="image/main2.png" width="30%" height="30%"></div>
+
 <img src="image/pricing.png" width="30%" height="30%">
 <img src="image/payment.png" width="30%" height="30%">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
