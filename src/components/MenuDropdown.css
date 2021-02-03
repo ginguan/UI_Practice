@@ -2,6 +2,7 @@
     position: relative;
     top: 30px;
     left: 30px;
+    border:none;
 
 }
   .nav-links {
@@ -54,6 +55,6 @@
     display:flex;
     flex-direction: row;
     background-color: transparent;
-    border: transparent;
+    border: none;
     border-radius: 20px;
 }

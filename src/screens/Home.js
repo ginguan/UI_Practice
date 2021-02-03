@@ -1,4 +1,5 @@
 import React from "react";
+import {Link } from "react-router-dom";
 import AwesomeSlider from 'react-awesome-slider';
 // import AutoplaySlider from 'react-awesome-slider/src/hoc/autoplay';
 import 'react-awesome-slider/dist/styles.css';
@@ -10,12 +11,33 @@ import './Home.css';
 import MenuDropdown from '../components/MenuDropdown'
 import speaker1 from './img/medium17.png';
 import speaker2 from './img/medium27.png';
+import Pricing from './Pricing';
+import Audio1 from './img/song.mp3';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const Home= () =>{
+
+
+    var myAudio = document.getElementById("audio");
+    var isPlaying = false;
+
+    function togglePlay() {
+    isPlaying ? myAudio.pause() : myAudio.play();
+    };
+
+    myAudio.onplaying = function() {
+    isPlaying = true;
+    };
+    myAudio.onpause = function() {
+    isPlaying = false;
+    };
+
     const TryitNow =()=>{
-        return(<button className = "btn-tryitnow">TRY IT NOW</button>);
+        return(
+            <Link to="/Pricing">
+                <button className = "btn-tryitnow">TRY IT NOW</button></Link>
+        );
     }
     const DemoButton =()=>{
         return(<button className = "btn-demo">SEE DEMO</button>);
@@ -23,7 +45,6 @@ const Home= () =>{
     const NavMenu =() =>{
         //f0c9
         return(
-        
             <button className="navMenu" ><FontAwesomeIcon size = '2x' icon={faBars} /></button>
         );
     }
@@ -65,35 +86,118 @@ const Home= () =>{
     const Red =() =>{
         return (
             <div className="red-background">
-                <div><MenuDropdown />
+                <div>
+                <MenuDropdown />
                 <p className="red-text">SUPERIOR SOUND</p>
                 <p className="red-text2">Experience live versions of your favourite songs.</p>
-                <DemoButton/></div>
+                <button className = "btn-demo">SEE DEMO</button>
+                </div>
                 <div style={{display:"flex",flexDirection:"column"}}>
                     <div>
-                    <button className = "btn-red-tryitnow">TRY IT NOW</button>
+                    <Link to="/Pricing">
+                    <button className = "btn-red-tryitnow">TRY IT NOW</button></Link>
                     </div>
                     <div style={{display:"flex",flexDirection:"row"}} >
-                    <div style = {{marginTop:'239px'}}><img src={speaker1}></img> </div>
-                    <div style = {{marginTop:'456px'}}
-                    ><img src={speaker2}></img></div>
+                    <div style = {{marginTop:'100px'}} >
+                    
+                    {/* <audio  src="https://soundcloud.com/steveaoki/mind-control-1"></audio> */}
+                    <img onClick={togglePlay}
+                    data-playing="false" role="switch" aria-checked="false" src={speaker1}>
+                    </img> </div>
+                    <div style = {{marginTop:'340px'}}
+                    ><img onClick={togglePlay}
+                    src={speaker2}></img>
+                    <div hidden>
+                    <audio id="audio" controls>
+                    <source src={Audio1} type="audio/mpeg"/>
+                    Your browser does not support the audio element.
+                    </audio>
                     </div>
+                    
+                    </div>
+                    </div>
+
                 
                 </div>
             
             </div>
         );
-        
+    };
+
+    const Yellow=()=>{
+        return(
+            <div className="yellow-background">
+                <div style={{display:"flex",flexDirection:'row'}}>
+                <div>
+                <MenuDropdown />
+                <div className="img-container">
+                    <img style={{marginLeft:"400px",marginTop:"25%"}}
+                    className="circle-img " src = "https://static-assets.profiles.hallyulife.com/lalisa-manoban-photo-welcoming-collection.jpg"/>
+                    <div style={{marginLeft:"400px" }}
+                    className="overlay">
+                    </div>
+                </div>
+                <div className="img-container">
+                    <img style={{height:'400px',width:'400px',marginLeft:"250px",marginTop:"-20%"}}
+                    className="circle-img" src='https://pbs.twimg.com/profile_images/1273136969904775168/J3R4lSpN_400x400.jpg'/>
+                    <div style={{height:'400px',width:'400px',marginLeft:"250px"}}
+                    className="overlay" >
+                    </div>
+                </div>
+                <div className="img-container">
+                    <img style={{height:'100px',width:'100px',marginTop:"-380px",marginLeft:"580px"}}
+                    className="circle-img" src='https://pbs.twimg.com/profile_images/1273136969904775168/J3R4lSpN_400x400.jpg'/>
+                    <div style={{height:'100px',width:'100px',marginLeft:"580px"}}
+                    className="overlay" >
+                    </div>
+                </div>
+                </div>
+                <div >
+                <Link to="/Pricing">
+                <button className = "btn-yellow-tryitnow">TRY IT NOW</button></Link>
+                <p className="yellow-text">FRONT ROW SEATS</p>
+                <p className="yellow-text2">Experience concerts up close and personal.</p>
+                <button className = "btn-demo-yellow">SEE DEMO</button>
+            
+                </div>
+                </div>
+            </div>
+
+        );
+    }
+    const Perks =() =>{
+        return (
+            <div className="perks-background">
+                <div>
+                <MenuDropdown />
+                
+                </div>
+                <div style={{display:"flex",flexDirection:"column"}}>
+                   
+                    
+                </div>
+                <div style={{display:"flex",flexDirection:"column"}}>
+                   
+                    
+                </div>
+                
+            
+            </div>
+            
+        );
     };
 
     return(
 
         <div>
+        
         <Hero/>
         <Red/>
+        <Yellow/>
+        <Perks/>
+        <div className="gap-container"></div>
         </div>
         
     );
 }
 export default Home;
-//carousel__title

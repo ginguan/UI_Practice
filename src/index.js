@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './screens/Home'
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+
+import Pricing from './screens/Pricing';
+import Payment from './screens/Payment';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Home />
-  </React.StrictMode>,
+  <BrowserRouter>
+  <Switch>
+   <Route exact path="/" component={Home} />
+   <Route path="/Payment" component={Payment} />
+   <Route path="/Pricing" component={Pricing} />
+ </Switch>
+ </BrowserRouter>,
   document.getElementById('root')
 );
 
