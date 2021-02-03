@@ -60,9 +60,9 @@ const Home= () =>{
             <div>
             <div>
             <AutoplaySlider animation="cubeAnimation"
-            // play ={true}
+            play ={true}
             cancelOnInteraction={false}
-            // interval={10000}
+            interval={10000}
             >
                 <div className="container" style ={{backgroundImage :`url('https://wallpapercave.com/wp/wp1871636.jpg')`}}>
                 <MenuDropdown />
