@@ -1,0 +1,117 @@
+.pricing-page{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1890px;
+    background: #191919 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display:flex;
+    flex-direction: row;
+}
+.pricing-title{
+    top: 308px;
+    margin-left: 183px;
+    width: 357px;
+    height: 88px;
+    text-align: left;
+    font: normal normal bold 74px/90px Helvetica Neue;
+    letter-spacing: 7.4px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.pricing-content{
+    top: 434px;
+    margin-left: 183px;
+    width: 1550px;
+    height: 140px;
+    text-align: left;
+    font: normal normal normal 51px/80px Helvetica Neue;
+    letter-spacing: 5.1px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.pricing-container{
+    display: flex;
+    flex-direction: row;
+}
+.plan-title{
+    text-align: left;
+    font: normal normal bold 42px/51px Helvetica Neue;
+    letter-spacing: 4.2px;
+    opacity: 1;
+    margin-left: 183px;
+}
+.plan-title2{
+    text-align: left;
+    font: normal normal bold 47px/57px Helvetica Neue;
+    letter-spacing: 4.7px;
+    opacity: 1;
+}
+.price{
+    text-align: left;
+    font: normal normal bold 134px/164px Helvetica Neue;
+    letter-spacing: 13.4px;
+    opacity: 1;
+}
+
+    ul.music {
+        list-style:disc url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+        color:white;
+        text-align: left;
+        font: normal normal normal 47px/64px Helvetica Neue;
+        letter-spacing: 4.7px;
+        color: #FFFFFF;
+        opacity: 1;}
+
+        
+    .music li:before, .dejavu {content: "\266A";position:relative;left:-0.5em;font-family:dejavu_sansbold;}
+    
+    .music li {margin-bottom:10px;}
+
+
+.btn-select{
+    margin-left: 183px;
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background:#FFFFFF 0% 0% no-repeat padding-box;
+    padding: 1em 2em;
+    border: none;
+    font-size: 1.2em;
+    font: normal normal bold 20px/25px Helvetica Neue;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 79px;
+    width: 335px;
+height: 84px;
+  }
+  .btn-select span {
+    position: relative;
+    pointer-events: none;
+  }
+  .btn-select::before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, pink, transparent);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    transition: width .2s ease, height .2s ease;
+  }
+  .btn-select:hover::before {
+    --size: 400px;
+  }
+  .pricing-perks-background{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+  }

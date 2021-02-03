@@ -1,0 +1,97 @@
+.payment-background{
+    height:1947px;
+    width:1920px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    display:flex;
+    flex-direction: column;
+}
+.payment-title{
+    text-align: left;
+    margin-left: 183px;
+    font: normal normal bold 74px/90px Helvetica Neue;
+    letter-spacing: 7.4px;
+    color: #000000;
+    opacity: 1;
+}
+.section{
+    top: 517px;
+    margin-left: 185px;
+    width: 700px;
+    height: 53px;
+    text-align: left;
+    font: normal normal normal 45px/71px Helvetica Neue;
+    letter-spacing: 4.5px;
+    color: #000000;
+    opacity: 1;
+}
+.section1{
+    text-align: left;
+    font: normal normal bold 37px/45px Helvetica Neue;
+    letter-spacing: 3.7px;
+    opacity: 1;
+}
+.small-title{
+    text-align: left;
+    font: normal normal bold 22px/34px Helvetica Neue;
+    letter-spacing: 2.2px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 20px;
+}
+input[type=text]{
+    margin-top: 20px;
+    left: 254px;
+    width: 681px;
+    height: 74px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #000000;
+    opacity: 1;
+    font: normal normal normal 28px/44px Helvetica Neue;
+}
+input[type=text]:focus{
+    margin-top: 20px;
+    left: 254px;
+    width: 681px;
+    height: 74px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #000000;
+    opacity: 1;
+    border-bottom:10px solid  purple;
+    font: normal normal normal 28px/44px Helvetica Neue;
+}
+select{
+    top: 934px;
+    left: 254px;
+    width: 681px;
+    height: 74px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #000000;
+    opacity: 1;
+    font: normal normal normal 28px/44px Helvetica Neue;
+}
+.acknowledgement{
+    margin-top:220px;
+    text-align: left;
+    font: normal normal normal 22px/34px Helvetica Neue;
+    letter-spacing: 2.2px;
+    color: #191919;
+    margin-left:183px;
+    width:651px;
+    top: 1563px;
+
+}
+.btn-tryitnow{
+    top: 1654px;
+    left:280px;
+    font-size: 16px;
+    border-radius: 79px;
+    text-align: center;
+    border:transparent;
+    color:white;
+    width: 217px;
+    height: 60px;
+    background: transparent linear-gradient(90deg, #1FE1E9 0%, #5E33D1 34%, #D34848 65%, #FFB33F 100%) 0% 0% no-repeat padding-box;
+
+}

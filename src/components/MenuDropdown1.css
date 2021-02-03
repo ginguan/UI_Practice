@@ -1,0 +1,60 @@
+.dropdownMenu{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border:none;
+
+}
+  .nav-links {
+    position: fixed;
+    top: 10px;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(2.5% at 30px 30px);
+    /* clip-path: circle(100px at 0% 0%);
+    -webkit-clip-path: circle(100px at 0% 0%); */
+    transition: all 1s ease-out;
+    background:pink;
+  }
+
+  .dropdownMenu.open {
+    clip-path: circle(150px at 0% 0%);
+    -webkit-clip-path: circle(150px at 0% 0%);
+  }
+
+
+.nav-links li {
+  color: white;
+}
+.logo-content{
+    padding-left: 5px;
+    top: 76px;
+    left: 177px;
+    width: 235px;
+    height: 56px;
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: 4.8px;
+    color:black;
+    opacity: 1;
+}
+.logo{
+    padding-left: 5px;
+    padding-top: 5px;
+    top: 76px;
+    left: 177px;
+    width: 235px;
+    height: 56px;
+    text-align: left;
+    letter-spacing: 4.8px;
+    color:black;
+    opacity: 1;
+}
+.dropdownLogo{
+    display:flex;
+    flex-direction: row;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+}
