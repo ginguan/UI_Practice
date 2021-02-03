@@ -1,4 +1,5 @@
 # FRONT-END PROJECT #
+## ReactJS is used to build this front end project 
 ## Some screenshots of the project (in progress)##
 ### 3 Pages ###
 
