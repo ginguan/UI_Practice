@@ -1,5 +1,7 @@
 # FRONT-END PROJECT #
-## ReactJS is used to build this front end project 
+- ReactJS is used to build this front end project 
+- animation features
+
 ## Some screenshots of the project (in progress)##
 ### 3 Pages ###
 
