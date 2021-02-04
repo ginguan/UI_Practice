@@ -16,7 +16,7 @@ const Pricing=()=> {
             outerAplha={0.5}
             outerScale={8}/>
             <p style={{paddingLeft:"100px"}}className="perks-title">PERKS</p>
-            <hr className="line" style={{backgroundColor:"white",marginLeft:"100px"}}/>
+            <hr className="line" style={{marginTop:"180px",backgroundColor:"white",marginLeft:"100px"}}/>
             <p className="perks-content" style={{color:"white",paddingLeft:"100px"}}>Subscription Payment Model</p>
             <p className="perks-content2" style={{paddingLeft:"100px",color:"black"}}>No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
             </div>

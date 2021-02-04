@@ -199,7 +199,7 @@ const Home= () =>{
                 <div >
 
                 <p style={{paddingLeft:"100px"}}className="perks-title">PERKS</p>
-                <hr className="line" style={{backgroundColor:"#D34848",marginLeft:"100px"}}/>
+                <hr className="line" style={{marginTop:"180px",backgroundColor:"#D34848",marginLeft:"100px"}}/>
                 <p className="perks-content" style={{color:"#D34848",paddingLeft:"100px"}}>Subscription Payment Model</p>
                 <p className="perks-content2" style={{paddingLeft:"100px"}}>No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
                 </div>
