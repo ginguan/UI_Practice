@@ -1,4 +1,4 @@
-import React from "react";
+import React,  { useState, useEffect } from "react";
 import {Link } from "react-router-dom";
 import AwesomeSlider from 'react-awesome-slider';
 // import AutoplaySlider from 'react-awesome-slider/src/hoc/autoplay';
@@ -17,7 +17,6 @@ import speaker4 from './img/SmallSpeaker2.png';
 import Pricing from './Pricing';
 import Audio1 from './img/song.mp3';
 import CircleNav from '../components/CircleNav';
-
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const Home= () =>{
@@ -37,7 +36,14 @@ const Home= () =>{
     //         myAudio.play();
     //     }
     // };
-
+    const [cursorXY, setCursorXY] = useState({ x: -100, y: -100 })
+    useEffect(() => {
+    const moveCursor = (e) => { }
+    window.addEventListener('mousemove', moveCursor)
+    return () => {
+      window.removeEventListener('mousemove', moveCursor)
+    }
+  }, [])
 
 
 
@@ -95,7 +101,9 @@ const Home= () =>{
     const Red =() =>{
         return (
             <div className="red-background">
+
                 <div>
+
                 {/* <CircleNav/> */}
                 <p className="red-text">SUPERIOR SOUND</p>
                 <p className="red-text2">Experience live versions of your favourite songs.</p>
@@ -113,7 +121,8 @@ const Home= () =>{
                     <img 
                     //onClick={togglePlay}
                     data-playing="false" role="switch" aria-checked="false" src={speaker1}>
-                    </img> </div>
+                    </img>
+                     </div>
                     <div style = {{marginTop:'340px'}}
                     ><img 
                     // onClick={togglePlay}
@@ -130,7 +139,7 @@ const Home= () =>{
 
                 
                 </div>
-            
+
             </div>
         );
     };
@@ -140,6 +149,7 @@ const Home= () =>{
             <div className="yellow-background">
                 <div style={{display:"flex",flexDirection:'row'}}>
                 <div>
+                
                 <MenuDropdown />
                 <div className="img-container">
                     <img style={{marginLeft:"400px",marginTop:"25%"}}
@@ -185,6 +195,7 @@ const Home= () =>{
     }
     const Perks =() =>{
         return (
+            
             <div className="perks-background">
                 <div >
                 <MenuDropdown />
@@ -206,8 +217,6 @@ const Home= () =>{
                 <p className="perks-content" style={{color:"#FFB33F"}}>Subscription Payment Model</p>
                 <p className="perks-content2">No commitment, cancel anytime. Never worry about forgetting a payment again!</p>
                 </div>
-                
-            
             </div>
             
         );
@@ -258,6 +267,7 @@ const Home= () =>{
         <div style={{display:"flex",flexDirection:'row'}}>
             <div>
             <MenuDropdown />
+
             <div>
                 <p className="get-text">GET EXP|CON NOW</p>
                 <p className="get-text2">Purchase and download the app.</p>

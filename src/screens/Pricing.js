@@ -1,12 +1,19 @@
 import React from "react";
 import {Link } from "react-router-dom";
 import './Pricing.css';
-import MenuDropdown from '../components/MenuDropdown'
+import MenuDropdown from '../components/MenuDropdown';
+import AnimatedCursor from "react-animated-cursor";
 const Pricing=()=> {
   const Perks =() =>{
     return (
         <div className="pricing-perks-background" style={{backgroundColor:"#D34848"}}>
             <div >
+            <AnimatedCursor
+            color='255, 255, 255'
+            innerSize={10}
+            outerSize={10}
+            outerAplha={0.5}
+            outerScale={8}/>
             <MenuDropdown />
             <p style={{paddingLeft:"100px"}}className="perks-title">PERKS</p>
             <hr className="line" style={{backgroundColor:"white",marginLeft:"100px"}}/>

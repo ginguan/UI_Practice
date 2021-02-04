@@ -2,11 +2,18 @@ import React from "react";
 import {Link } from "react-router-dom";
 import './Payment.css';
 import MenuDropdown from '../components/MenuDropdown';
-
+import AnimatedCursor from "react-animated-cursor";
 const Payment=()=> {
     return (
       <div className="payment-background">
+        
           <div >
+            <AnimatedCursor
+            color='255, 187, 0'
+            innerSize={10}
+            outerSize={10}
+            outerAplha={0.5}
+            outerScale={8}/>
             <MenuDropdown  /></div>
             <p className="payment-title"> PAYMENT</p>
             <p className="section">
