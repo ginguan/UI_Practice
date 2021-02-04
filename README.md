@@ -8,13 +8,16 @@
 
 ## Screen: Landing Main Landing Page
 ### Hero Section
+- Menu animation:
+  - Clicking on the hamburger menu should expand it 
 - Three image slider
   - The slides should change automatically after about 10 seconds or when the small white buttons are pressed.
+<img src="image/slide-show.gif" width="100%" height="100%" />
 - Liquid Gradient CTA button
   - Example: https://codepen.io/fixcl/pen/CsndK
   - This button should take you to the pricing screen.
-- Menu animation:
-  - Clicking on the hamburger menu should expand it 
+
+
 
 ### Section 2: RED
 <!--Switch to an interactive cursor like on this site: https://fleava.com/
@@ -29,7 +32,7 @@ Click again to turn the music off-->
 - When you hover over different areas of the page, more of the background image should reveal itself
 - If you hover over the text, the text should invert in colour while the image is behind it
 - The ‘Try it now’ button should take you to the pricing screen
-
+<img src="image/yellow.gif" width="100%" height="100%" />
 
 ### Section 4: Perks
 
@@ -65,17 +68,16 @@ Click again to turn the music off-->
 - While typing in the boxes, a purple highlight should appear when the type box is clicked
 - The ‘download’ button should have the same animation as the hero section CTA.
 - If the boxes are empty, the ‘download’ button should be disabled
+<img src="image/payment.gif" width="100%" height="100%" />
 
-## Some screenshots of the project (in progress)##
-### 3 Pages ###
+## Some screenshots of the project##
+### Pages ###
 
 <div class="row">
-  <img src="image/main.png" width="30%" height="30%"><img src="image/main2.png" width="30%" height="30%">
+  <img src="image/main.png" width="50%" height="50%">
 </div>
   <div class="row">
-<img src="image/pricing.png" width="30%" height="30%">
+<img src="image/pricing.png" width="50%" height="50%">
 <img src="image/payment.png" width="50%" height="50%">
-<img src="image/hover.png" width="30%" height="30%">
-<img src="image/focus.png" width="50%" height="50%">
-<img src="image/cursor.png" width="50%" height="50%"></div>
+
 
