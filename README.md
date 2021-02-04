@@ -71,11 +71,12 @@ Click again to turn the music off-->
 
 <div class="row">
   <img src="image/main.png" width="30%" height="30%"><img src="image/main2.png" width="30%" height="30%">
-<img src="image/hover.png" width="30%" height="30%">
+
 </div>
   <div class="row">
 <img src="image/pricing.png" width="30%" height="30%">
 <img src="image/cursor.png" width="30%" height="30%">
 <img src="image/payment.png" width="50%" height="50%">
-<img src="image/focus.png" width="50%" height="50%"></div>
+<img src="image/focus.png" width="50%" height="50%">
+<img src="image/hover.png" width="30%" height="30%"></div>
 
