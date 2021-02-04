@@ -143,7 +143,7 @@ const Home= () =>{
                 <MenuDropdown />
                 <div className="img-container">
                     <img style={{marginLeft:"400px",marginTop:"25%"}}
-                    className="circle-img " src = "https://static-assets.profiles.hallyulife.com/lalisa-manoban-photo-welcoming-collection.jpg"/>
+                    className="circle-img " src = "https://i.guim.co.uk/img/media/74cae4f3a285b8a8638cfbc76355b2f0c0db29c5/0_208_1737_1042/master/1737.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=6850eea75ed569aed2f1309ce993805f"/>
                     <div style={{marginLeft:"400px" }}
                     className="overlay">
                     </div>
@@ -170,7 +170,7 @@ const Home= () =>{
                 <p className="yellow-text2">Experience concerts up close and personal.</p>
                 <button className = "btn-demo-yellow">SEE DEMO</button>
                 <div className="img-container">
-                    <img style={{height:'400px',width:'400px',marginTop:"200px",marginLeft:"580px"}}
+                    <img style={{height:'400px',width:'400px',marginTop:"120px",marginLeft:"580px"}}
                     className="circle-img" src='https://i.guim.co.uk/img/media/74cae4f3a285b8a8638cfbc76355b2f0c0db29c5/0_208_1737_1042/master/1737.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=6850eea75ed569aed2f1309ce993805f'/>
                     <div style={{height:'400px',width:'400px',marginLeft:"580px"}}
                     className="overlay" >

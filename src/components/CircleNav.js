@@ -11,7 +11,6 @@ const CircleNav=()=>{
           <a class="floating-btn" onclick="document.getElementById('circularMenu1').classList.toggle('active');">
             <FontAwesomeIcon className="logo" size ="2x"icon={faBars} />
           </a>
-        
           <menu class="items-wrapper">
             <a href="#" class="menu-item">
             <FontAwesomeIcon className="logo"icon={faHome} />
