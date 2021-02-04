@@ -24,20 +24,20 @@ Click again to turn the music off-->
 - The ‘Try it now’ button should take you to the pricing screen
 - The ‘see demo’ button doesn’t link to anything
 
-Section 3: YELLOW
+### Section 3: YELLOW
 
 - When you hover over different areas of the page, more of the background image should reveal itself
 - If you hover over the text, the text should invert in colour while the image is behind it
 - The ‘Try it now’ button should take you to the pricing screen
 
 
-Section 4: Perks
+### Section 4: Perks
 
 - The ‘Try it now’ button should take you to the pricing screen
 - This button has the same animation as the hero section CTA.
 
 
-Section 5: Reviews
+### Section 5: Reviews
 
 - White CTA Buttons should have a hover effect
 - The ‘Try it now’ button should take you to the pricing screen
@@ -45,7 +45,7 @@ Section 5: Reviews
 
 
 
-Section 6: Get EXP|CON now
+### Section 6: Get EXP|CON now
 
 - The ‘Try it now’ button should take you to the pricing screen
 - This button has the same animation as the hero section CTA.
