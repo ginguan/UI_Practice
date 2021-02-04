@@ -57,6 +57,7 @@ Click again to turn the music off-->
 
 - The select buttons should take you to the payments screen
 - Button animation should be the same as the white buttons on the other pages
+- cursor animation
 
 
 ## Screen: Payments
@@ -74,7 +75,7 @@ Click again to turn the music off-->
 </div>
   <div class="row">
 <img src="image/pricing.png" width="30%" height="30%">
-
+<img src="image/cursor.png" width="30%" height="30%">
 <img src="image/payment.png" width="50%" height="50%">
 <img src="image/focus.png" width="50%" height="50%"></div>
 
