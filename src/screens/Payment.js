@@ -1,7 +1,7 @@
 import React from "react";
 import {Link } from "react-router-dom";
 import './Payment.css';
-import MenuDropdown from '../components/MenuDropdown1';
+import MenuDropdown from '../components/MenuDropdown';
 
 const Payment=()=> {
     return (

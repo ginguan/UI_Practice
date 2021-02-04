@@ -4,6 +4,7 @@ import AwesomeSlider from 'react-awesome-slider';
 // import AutoplaySlider from 'react-awesome-slider/src/hoc/autoplay';
 import 'react-awesome-slider/dist/styles.css';
 import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
+import 'react-awesome-slider/dist/custom-animations/open-animation.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
@@ -15,6 +16,7 @@ import speaker3 from './img/SmallSpeaker1.png';
 import speaker4 from './img/SmallSpeaker2.png';
 import Pricing from './Pricing';
 import Audio1 from './img/song.mp3';
+import CircleNav from '../components/CircleNav';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -59,7 +61,7 @@ const Home= () =>{
         return(
             <div>
             <div>
-            <AutoplaySlider animation="cubeAnimation"
+            <AutoplaySlider animation="openAnimation"
             play ={true}
             cancelOnInteraction={false}
             interval={10000}
@@ -69,6 +71,7 @@ const Home= () =>{
                 <p className="slide-text">INTERACTIVE CONCERT EXPERIENCE</p>
                 <p className="slide-text2">Experience your favourite artists like never before and from the comfort of your own home.</p>
                 <TryitNow/>
+                
                 </div>
                 <div className="container" style ={{backgroundImage:`url('https://th.bing.com/th/id/R1211e7557b7c3364de17047da9f33d20?rik=EeoVBGO1PDuajg&riu=http%3a%2f%2fwww.ambientlightblog.com%2fwp-content%2fuploads%2f2018%2f01%2fCigarettesAfterSex_013.jpg&ehk=5Yy0Ty%2fF8qDnnzTScwo5JJz91zKTJC0q2IJ99RiTK0E%3d&risl=&pid=ImgRaw')`}}>
                 <MenuDropdown/>
@@ -93,7 +96,7 @@ const Home= () =>{
         return (
             <div className="red-background">
                 <div>
-                <MenuDropdown />
+                {/* <CircleNav/> */}
                 <p className="red-text">SUPERIOR SOUND</p>
                 <p className="red-text2">Experience live versions of your favourite songs.</p>
                 <button className = "btn-demo">SEE DEMO</button>

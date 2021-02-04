@@ -1,10 +1,72 @@
 # FRONT-END PROJECT #
 - ReactJS is used to build this front end project 
-- animation features
+
+##Installation:
+      git clone https://github.com/ginguan/exp.git
+      npm install
+      npm start
+
+##Screen: Landing Main Landing Page
+###Hero Section
+- Three image slider
+  - The slides should change automatically after about 10 seconds or when the small white buttons are pressed.
+- Liquid Gradient CTA button
+  - Example: https://codepen.io/fixcl/pen/CsndK
+  - This button should take you to the pricing screen.
+- Menu animation:
+  - Clicking on the hamburger menu should expand it 
+
+###Section 2: RED
+<!--Switch to an interactive cursor like on this site: https://fleava.com/
+When you click the speakers it should start playing music (we recommend using the Web Audio API for this: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
+Click again to turn the music off-->
+- White CTA Buttons should have a hover effect similar to this: https://codepen.io/nguyencaotai1969/pen/oNNJdJr
+- The ‘Try it now’ button should take you to the pricing screen
+- The ‘see demo’ button doesn’t link to anything
+
+Section 3: YELLOW
+
+- When you hover over different areas of the page, more of the background image should reveal itself
+- If you hover over the text, the text should invert in colour while the image is behind it
+- The ‘Try it now’ button should take you to the pricing screen
+
+
+Section 4: Perks
+
+- The ‘Try it now’ button should take you to the pricing screen
+- This button has the same animation as the hero section CTA.
+
+
+Section 5: Reviews
+
+- White CTA Buttons should have a hover effect
+- The ‘Try it now’ button should take you to the pricing screen
+
+
+
+
+Section 6: Get EXP|CON now
+
+- The ‘Try it now’ button should take you to the pricing screen
+- This button has the same animation as the hero section CTA.
+
+
+
+
+##Screen: Pricing
+
+- The select buttons should take you to the payments screen
+- Button animation should be the same as the white buttons on the other pages
+
+
+##Screen: Payments
+
+- While typing in the boxes, a purple highlight should appear when the type box is clicked
+- The ‘download’ button should have the same animation as the hero section CTA.
+- If the boxes are empty, the ‘download’ button should be disabled
 
 ## Some screenshots of the project (in progress)##
 ### 3 Pages ###
-
 
 <div class="row">
   <img src="image/main.png" width="30%" height="30%"><img src="image/main2.png" width="30%" height="30%">
@@ -15,41 +77,4 @@
 
 <img src="image/payment.png" width="50%" height="50%">
 <img src="image/focus.png" width="50%" height="50%"></div>
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-
 
