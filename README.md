@@ -1,13 +1,13 @@
 # FRONT-END PROJECT #
 - ReactJS is used to build this front end project 
 
-##Installation:
+## Installation:
       git clone https://github.com/ginguan/exp.git
       npm install
       npm start
 
-##Screen: Landing Main Landing Page
-###Hero Section
+## Screen: Landing Main Landing Page
+### Hero Section
 - Three image slider
   - The slides should change automatically after about 10 seconds or when the small white buttons are pressed.
 - Liquid Gradient CTA button
@@ -16,7 +16,7 @@
 - Menu animation:
   - Clicking on the hamburger menu should expand it 
 
-###Section 2: RED
+### Section 2: RED
 <!--Switch to an interactive cursor like on this site: https://fleava.com/
 When you click the speakers it should start playing music (we recommend using the Web Audio API for this: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 Click again to turn the music off-->
@@ -24,20 +24,20 @@ Click again to turn the music off-->
 - The ‘Try it now’ button should take you to the pricing screen
 - The ‘see demo’ button doesn’t link to anything
 
-Section 3: YELLOW
+### Section 3: YELLOW
 
 - When you hover over different areas of the page, more of the background image should reveal itself
 - If you hover over the text, the text should invert in colour while the image is behind it
 - The ‘Try it now’ button should take you to the pricing screen
 
 
-Section 4: Perks
+### Section 4: Perks
 
 - The ‘Try it now’ button should take you to the pricing screen
 - This button has the same animation as the hero section CTA.
 
 
-Section 5: Reviews
+### Section 5: Reviews
 
 - White CTA Buttons should have a hover effect
 - The ‘Try it now’ button should take you to the pricing screen
@@ -45,7 +45,7 @@ Section 5: Reviews
 
 
 
-Section 6: Get EXP|CON now
+### Section 6: Get EXP|CON now
 
 - The ‘Try it now’ button should take you to the pricing screen
 - This button has the same animation as the hero section CTA.
@@ -53,13 +53,13 @@ Section 6: Get EXP|CON now
 
 
 
-##Screen: Pricing
+## Screen: Pricing
 
 - The select buttons should take you to the payments screen
 - Button animation should be the same as the white buttons on the other pages
 
 
-##Screen: Payments
+## Screen: Payments
 
 - While typing in the boxes, a purple highlight should appear when the type box is clicked
 - The ‘download’ button should have the same animation as the hero section CTA.
