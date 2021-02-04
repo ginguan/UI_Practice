@@ -17,7 +17,9 @@ import speaker4 from './img/SmallSpeaker2.png';
 import Pricing from './Pricing';
 import Audio1 from './img/song.mp3';
 import CircleNav from '../components/CircleNav';
+import AnimatedCursor from "react-animated-cursor";
 const AutoplaySlider = withAutoplay(AwesomeSlider);
+
 
 const Home= () =>{
     // var myAudio = document.getElementById("audio");
@@ -36,17 +38,6 @@ const Home= () =>{
     //         myAudio.play();
     //     }
     // };
-    const [cursorXY, setCursorXY] = useState({ x: -100, y: -100 })
-    useEffect(() => {
-    const moveCursor = (e) => { }
-    window.addEventListener('mousemove', moveCursor)
-    return () => {
-      window.removeEventListener('mousemove', moveCursor)
-    }
-  }, [])
-
-
-
     const TryitNow =()=>{
         return(
             <Link to="/Pricing">
@@ -67,26 +58,35 @@ const Home= () =>{
         return(
             <div>
             <div>
+            <AnimatedCursor
+            color='255, 255, 255'
+            innerSize={10}
+            outerSize={10}
+            outerAplha={0.5}
+            outerScale={8}/>
+
             <AutoplaySlider animation="openAnimation"
             play ={true}
             cancelOnInteraction={false}
             interval={10000}
             >
+                
                 <div className="container" style ={{backgroundImage :`url('https://wallpapercave.com/wp/wp1871636.jpg')`}}>
-                <MenuDropdown />
+                
+                
                 <p className="slide-text">INTERACTIVE CONCERT EXPERIENCE</p>
                 <p className="slide-text2">Experience your favourite artists like never before and from the comfort of your own home.</p>
                 <TryitNow/>
                 
                 </div>
                 <div className="container" style ={{backgroundImage:`url('https://th.bing.com/th/id/R1211e7557b7c3364de17047da9f33d20?rik=EeoVBGO1PDuajg&riu=http%3a%2f%2fwww.ambientlightblog.com%2fwp-content%2fuploads%2f2018%2f01%2fCigarettesAfterSex_013.jpg&ehk=5Yy0Ty%2fF8qDnnzTScwo5JJz91zKTJC0q2IJ99RiTK0E%3d&risl=&pid=ImgRaw')`}}>
-                <MenuDropdown/>
+               
                 <p className="slide-text">INTERACTIVE CONCERT EXPERIENCE</p>
                 <p className="slide-text2">Experience your favourite artists like never before and from the comfort of your own home.</p>
                 <TryitNow/>
                 </div>
                 <div className="container" style ={{backgroundImage:`url("https://i.pinimg.com/originals/20/7b/5d/207b5d20059943eb73dd5fbcd814733a.jpg")`}}>
-                <MenuDropdown/>
+               
                 <p className="slide-text">INTERACTIVE CONCERT EXPERIENCE</p>
                 <p className="slide-text2">Experience your favourite artists like never before and from the comfort of your own home.</p>
                 
@@ -104,7 +104,7 @@ const Home= () =>{
 
                 <div>
 
-                {/* <CircleNav/> */}
+                <CircleNav/>
                 <p className="red-text">SUPERIOR SOUND</p>
                 <p className="red-text2">Experience live versions of your favourite songs.</p>
                 <button className = "btn-demo">SEE DEMO</button>
@@ -150,7 +150,6 @@ const Home= () =>{
                 <div style={{display:"flex",flexDirection:'row'}}>
                 <div>
                 
-                <MenuDropdown />
                 <div className="img-container">
                     <img style={{marginLeft:"400px",marginTop:"25%"}}
                     className="circle-img " src = "https://i.guim.co.uk/img/media/74cae4f3a285b8a8638cfbc76355b2f0c0db29c5/0_208_1737_1042/master/1737.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=6850eea75ed569aed2f1309ce993805f"/>
@@ -198,7 +197,6 @@ const Home= () =>{
             
             <div className="perks-background">
                 <div >
-                <MenuDropdown />
 
                 <p style={{paddingLeft:"100px"}}className="perks-title">PERKS</p>
                 <hr className="line" style={{backgroundColor:"#D34848",marginLeft:"100px"}}/>
@@ -225,7 +223,7 @@ const Home= () =>{
         return (
             <div className="review-background">
                 <div style={{width:"700px"}}>
-                <MenuDropdown />
+ 
                 <img style={{width: "493px*1.5",height: "400px*1.5",marginTop:"100px"}}
                     src={speaker3}></img>
                 <img style={{width: "493px*1.5",height: "400px*1.5",marginTop:"-200px" ,marginLeft:"80px"}}
@@ -266,8 +264,6 @@ const Home= () =>{
             <div className="get-background">
         <div style={{display:"flex",flexDirection:'row'}}>
             <div>
-            <MenuDropdown />
-
             <div>
                 <p className="get-text">GET EXP|CON NOW</p>
                 <p className="get-text2">Purchase and download the app.</p>

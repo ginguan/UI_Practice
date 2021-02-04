@@ -1,20 +1,20 @@
 import React from "react";
 import {Link } from "react-router-dom";
 import './Pricing.css';
-import MenuDropdown from '../components/MenuDropdown';
 import AnimatedCursor from "react-animated-cursor";
+import CircleNav from '../components/CircleNav';
 const Pricing=()=> {
   const Perks =() =>{
     return (
         <div className="pricing-perks-background" style={{backgroundColor:"#D34848"}}>
             <div >
+            <CircleNav/>
             <AnimatedCursor
             color='255, 255, 255'
             innerSize={10}
             outerSize={10}
             outerAplha={0.5}
             outerScale={8}/>
-            <MenuDropdown />
             <p style={{paddingLeft:"100px"}}className="perks-title">PERKS</p>
             <hr className="line" style={{backgroundColor:"white",marginLeft:"100px"}}/>
             <p className="perks-content" style={{color:"white",paddingLeft:"100px"}}>Subscription Payment Model</p>
@@ -40,7 +40,7 @@ const Pricing=()=> {
       <div>
      <div className="pricing-page">
        <div style={{display:"flex",flexDirection:"column"}}>
-         <MenuDropdown/>
+  
          <p className="pricing-title">PRICING</p>
          <p className="pricing-content">Test out our app today! Choose from three subscription Based payment models.</p>
          <div className="pricing-container">
