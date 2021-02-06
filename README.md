@@ -5,7 +5,6 @@
       git clone https://github.com/ginguan/exp.git
       npm install
       npm start
-<a href="https://exp-front.herokuapp.com/">DEMO</a>
 
 ## Screen: Landing Main Landing Page
 ### Hero Section
