@@ -2,7 +2,7 @@
 - ReactJS is used to build this front end project 
 
 ## Installation:
-      git clone https://github.com/ginguan/exp.git
+      git clone https://github.com/ginguan/UI_Practice.git
       npm install
       npm start
 
